@@ -1,0 +1,25 @@
+name: Continuous Delivery with GitHub Packages (NPM)
+
+on:
+  workflow_dispatch:
+
+jobs:
+  deploy:
+    name: Deploy Node.js Package
+    runs-on: ubuntu-20.04
+    steps:
+      - name: Clone repository
+        uses: actions/checkout@v2
+      - name: Setup .npmrc file to publish to npm
+        uses: actions/setup-node@v1
+        with:
+          node-version: '10.x'
+          registry-url: 'https://npm.pkg.github.com'
+      - name: Build project
+        run: npm install
+      - name: Run test
+        run: npm test
+      - name: Publish to GitHub Packages
+        run: npm publish
+        env:
+          NODE_AUTH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
