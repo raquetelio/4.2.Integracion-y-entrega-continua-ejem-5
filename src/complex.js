@@ -1,4 +1,4 @@
-export default class Complex {
+class Complex {
 
     constructor(realPart, imaginaryPart) {
         this.realPart = realPart;
@@ -69,3 +69,5 @@ export default class Complex {
         return this.times(complex.reciprocal());
     }
 }
+
+exports.Complex = Complex;
