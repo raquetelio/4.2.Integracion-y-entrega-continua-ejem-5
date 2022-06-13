@@ -1,24 +1,26 @@
 {
-  "name": "@mastercloudapps/complex-node",
-  "version": "1.0.0",
-  "description": "Library to work with complex numbers",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/MasterCloudApps/4.3.Integracion-y-entrega-continua-ejem-5.git"
-  },
-  "main": "index.js",
-  "scripts": {
-    "test": "jest"
-  },
-  "author": "",
-  "license": "ISC",
-  "devDependencies": {
-    "jest": "^24.9.0"
-  },
-  "bugs": {
-    "url": "https://github.com/MasterCloudApps/4.3.Integracion-y-entrega-continua-ejem-5/issues"
-  },
-  "homepage": "https://github.com/MasterCloudApps/4.3.Integracion-y-entrega-continua-ejem-5#readme",
-  "dependencies": {},
-  "keywords": []
+    "name": "@mastercloudapps/complex-node",
+    "version": "1.0.0",
+    "description": "Library to work with complex numbers",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/MasterCloudApps/4.2.Integracion-y-entrega-continua-ejem-5.git"
+    },
+    "type": "module",
+    "main": "index.js",
+    "scripts": {
+        "test": "jest"
+    },
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+        "@babel/plugin-transform-modules-commonjs": "^7.16.8",
+        "jest": "27.4.7"
+    },
+    "bugs": {
+        "url": "https://github.com/MasterCloudApps/4.2.Integracion-y-entrega-continua-ejem-5/issues"
+    },
+    "homepage": "https://github.com/MasterCloudApps/4.2.Integracion-y-entrega-continua-ejem-5#readme",
+    "dependencies": {},
+    "keywords": []
 }
