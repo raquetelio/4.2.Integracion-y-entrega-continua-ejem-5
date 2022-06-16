@@ -1,10 +1,10 @@
 {
-    "name": "@mastercloudapps/complex-node",
+    "name": "@raquetelio/complex-node",
     "version": "1.0.0",
     "description": "Library to work with complex numbers",
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/MasterCloudApps/4.2.Integracion-y-entrega-continua-ejem-5.git"
+        "url": "git+https://github.com/raquetelio/4.2.Integracion-y-entrega-continua-ejem-5.git"
     },
     "type": "module",
     "main": "src/complex.js",
@@ -18,9 +18,9 @@
         "jest": "27.4.7"
     },
     "bugs": {
-        "url": "https://github.com/MasterCloudApps/4.2.Integracion-y-entrega-continua-ejem-5/issues"
+        "url": "https://github.com/raquetelio/4.2.Integracion-y-entrega-continua-ejem-5/issues"
     },
-    "homepage": "https://github.com/MasterCloudApps/4.2.Integracion-y-entrega-continua-ejem-5#readme",
+    "homepage": "https://github.com/raquetelio/4.2.Integracion-y-entrega-continua-ejem-5#readme",
     "dependencies": {},
     "keywords": []
 }
